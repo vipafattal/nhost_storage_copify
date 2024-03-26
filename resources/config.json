@@ -1,0 +1,12 @@
+{
+  "source": {
+    "admin_token": "",
+    "subdomain": "",
+    "region": ""
+  },
+  "target": {
+    "admin_token": "",
+    "subdomain": "",
+    "region": ""
+  }
+}
