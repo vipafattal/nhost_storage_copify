@@ -1,4 +1,4 @@
-## A dart command-line application to copy storage files from one project to another.
+## A dart command-line tool to copy storage files from one project to another.
 
 
 # How to use?
