@@ -22,7 +22,7 @@ void main() async {
   final sourceDb = DbClient(sourceClient);
 
   final dbFileProcess = await sourceDb.getAllDbFiles();
-  final dbFiles = dbFileProcess.data!.sublist(750);
+  final dbFiles = dbFileProcess.data!;
   final numberOfFiles = dbFiles.length;
 
   for (int i = 0; i < numberOfFiles; i++) {
