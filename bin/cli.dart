@@ -49,8 +49,9 @@ void main() async {
     if (newUploadedFile == null) uploadFails.add(file);
     print(
         "=========================================================================");
-    reportLogs(numberOfFiles);
   }
+
+  reportLogs(numberOfFiles);
 }
 
 void saveIntoUserMachine(StorageFile file, Uint8List bytes) {
