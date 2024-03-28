@@ -68,9 +68,6 @@ void reportLogs(int numberOfFiles) {
   final numberOfDownloadFails = downloadFails.length;
   final numberOfUploadFails = uploadFails.length;
 
-  print(
-    "total download fails:$numberOfDownloadFails of $numberOfFiles. (because file doesn't exits in CDN storage)",
-  );
   if (numberOfUploadFails == 0 && numberOfDownloadFails == 0) {
     print("All files uploaded to the target successfully");
     return;
